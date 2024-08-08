@@ -8,9 +8,9 @@ console.log(holiDays[i]);
 
 //while文　祝日を順番に出力する
 let i = 0;
-while(i <= holiDays.length){
-  console.log(holiDays[i]);
-  i ++;
+while (i < holiDays.length) {
+console.log(holiDays[i]);
+ i ++;
 }
 
 
