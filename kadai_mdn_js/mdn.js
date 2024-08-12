@@ -1,5 +1,13 @@
-//値の代入
-var today = new Date();
+const today =new Date();
 
-//コンソールへ出力
-console.log(today);
+const formatDate =() => {
+  let year = today.getFullYear();
+  let month = today.getMonth() +1;
+  let day =today.getDate();
+
+  console.log(year + '年'+ month + '月' + day + '日');
+}
+
+formatDate();
+
+
